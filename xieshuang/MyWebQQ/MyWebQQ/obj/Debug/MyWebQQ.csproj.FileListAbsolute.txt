@@ -1,0 +1,10 @@
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.csprojResolveAssemblyReference.cache
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.FormLogin.resources
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.FormMain.resources
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.Properties.Resources.resources
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.csproj.GenerateResource.Cache
+D:\当前\MyWebQQ\MyWebQQ\bin\Debug\webqq.html
+D:\当前\MyWebQQ\MyWebQQ\bin\Debug\MyWebQQ.exe
+D:\当前\MyWebQQ\MyWebQQ\bin\Debug\MyWebQQ.pdb
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.exe
+D:\当前\MyWebQQ\MyWebQQ\obj\Debug\MyWebQQ.pdb

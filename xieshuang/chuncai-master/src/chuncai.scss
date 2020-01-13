@@ -1,0 +1,138 @@
+.chuncai-main {
+    left: 90%;
+    top: 70%;
+    display: block;
+    position: fixed;
+    z-index: 100;
+    width: 85px;
+    height: 152px;
+    overflow: visible;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+
+    > .chuncai-face {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 85px;
+        height: 152px;
+        cursor: grab;
+        cursor: -webkit-grab;
+        &:active {
+            cursor: grabbing;
+            cursor: -webkit-grabbing;
+        }
+    }
+    > .chuncai-face-00 {
+        background: url(./assets/face00.png) no-repeat;
+
+        > .chuncai-face-eye {
+            background: url(./assets/face-eyes.png) no-repeat;
+            // display: none;
+            left: 14px;
+            top: 49px;
+            width: 44px;
+            height: 19px;
+            position: absolute;
+            animation: ccblink 5s infinite;
+        }
+    }
+    > .chuncai-face-01 {
+        background: url(./assets/face01.png) no-repeat;
+    }
+    > .chuncai-face-02 {
+        background: url(./assets/face02.png) no-repeat;
+    }
+
+    > .chuncai-chat {
+        position: absolute;
+        left: -210px;
+        top: 0;
+
+        position: absolute;
+        left: -210px;
+        top: 0;
+        width: 16em;
+        border: 1px solid #ff5a77;
+        background: #ffe;
+        font-size: 12px;
+        border-radius: 4px;
+
+        &::before,
+        &::after {
+            position: absolute;
+            bottom: -4px;
+            right: 3px;
+            border-bottom: 5px solid transparent;
+            border-right: 14px solid #ffe;
+            content: '';
+        }
+        &::before {
+            bottom: -5px;
+            right: 2px;
+            border-right: 16px solid #ff5a77;
+        }
+
+        > .chuncai-word {
+            padding: 0.5em;
+            color: gray;
+            min-height: 15px;
+            word-wrap: break-word;
+        }
+
+        > .chuncai-menu {
+            display: none;
+            overflow: hidden;
+            > span.cc-cmd {
+                cursor: pointer;
+                display: inline-block;
+                width: 50%;
+                text-align: center;
+                color: #d2322d;
+            }
+        }
+
+        > .chuncai-menu-btn {
+            text-align: right;
+            margin-top: 0.3em;
+            padding: 0 10px 2px;
+            color: #ff5a77;
+            font-family: monospace;
+            text-align: right;
+            cursor: pointer;
+        }
+    }
+}
+
+a.chuncai-zhaohuan {
+    opacity: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em 0.75em;
+    padding: 1px 0.7em;
+    border: 1px solid #ff5a77;
+    color: #d2322d;
+    background: #ffe;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* 眨眼 */
+@keyframes ccblink {
+    0% {
+        opacity: 0;
+    }
+    78% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
